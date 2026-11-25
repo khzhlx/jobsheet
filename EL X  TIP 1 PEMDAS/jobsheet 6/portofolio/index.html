@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio pribadi — seorang pengembang yang suka merangkai kode dan kopi.">
+    <title>Hello, my  name is Angelica Putri — Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="logo">EL<span>.</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#keahlian">Keahlian</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hi">— Hello my name is </p>
+                <h1>El,<br>biasa dipanggil nengok </h1>
+                <p class="role">Saya Web Developer yang suka <span id="typed"></span></p>
+                <p class="desc">
+                    Ide-ide yang saya imajinasikan menjadi nyata lewat kode yang rapi, halaman yang cepat,
+                    serta pengalaman yang terasa nyaman. Sudah 3 (tiga ) tahun saya memasuki dunia perteknologian terutama pada bagian pemrograman , dan sampai sekarang saya masih senang belajar hal baru.
+                </p>
+                <div class="hero-btns">
+                    <a href="#proyek" class="btn btn-primary">Liat karya aing wok </a>
+                    <a href="#kontak" class="btn btn-ghost">Males ah, ngobrol bae dulu </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="#" aria-label="github">TikTok</a>
+                    <a href="#" aria-label="linkedin">WhatsApp</a>
+                    <a href="#" aria-label="instagram">Instagram</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-wrap">
+                    <div class="avatar">Strada</div>
+                    <div class="badge badge-1"> Teknik informatika Pemrograman </div>
+                    <div class="badge badge-2"> TIP 1</div>
+                </div>
+            </div>
+        </div>
+        <a href="#tentang" class="scroll-hint" aria-label="scroll ke bawah">
+            <span></span>
+        </a>
+    </section>
+
+    <section class="section" id="tentang">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">#tentang-gwej</span>
+                <h2>Cerita singkat saya</h2>
+            </div>
+            <div class="tentang-grid">
+                <div class="tentang-text">
+                    <p>
+                        Awalnya gw cuma iseng ikut eskul coding waktu SMP, nah dari situ gw mulai tertsrik dengan dunia coding.
+                    </p>
+                    <p>
+                        Sekarang saya fokus bikin website yang gak cuma bagus, tapi juga
+                        masuk akal secara teknis dan mudah dipakai. Prinsip gw sederhana:
+                        <strong>Jangan bikin ribet apa yang seharusnya simpel.</strong>
+                    </p>
+                    <p class="emoji-line">🌱 Di luar coding, gw juga suka nulis, design, dll.</p>
+                </div>
+                <div class="tentang-fakta">
+                    <h3>'bout me</h3>
+                    <ul>
+                        <li><span>📍</span> Domisili Bekasi, Indonesia</li>
+                        <li><span>🎓</span> Sekolah Teknik Informatika</li>
+                        <li><span>💼</span> 3 (tiga) tahun mempelajari ilmu coding </li>
+                        <li><span>🖥️</span> Bangga pakai Linux (maklum, developer WKWKWK)</li>
+                        <li><span>🎮</span> Kalau lagi gabut yaa ngedit aja dulu hehe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-soft" id="keahlian">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">#toolbox-gwej saya aku me guwah</span>
+                <h2>Yang biasanya gw pake</h2>
+                <p class="sub">Bukan sekadar daftar, tapi yang benar-benar saya sentuh tiap hari.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-top"><h3>Frontend</h3><span>90%</span></div>
+                    <div class="bar"><div class="bar-fill" style="--w:90%"></div></div>
+                    <p>HTML, CSS, JavaScript, dll/p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-top"><h3>Backend</h3><span>75%</span></div>
+                    <div class="bar"><div class="bar-fill" style="--w:75%"></div></div>
+                    <p>Node.js & MySQL </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-top"><h3>UI/UX</h3><span>70%</span></div>
+                    <div class="bar"><div class="bar-fill" style="--w:70%"></div></div>
+                    <p>Figma 
+                <div class="skill-card">
+                    <div class="skill-top"><h3>Alat Lain</h3><span>80%</span></div>
+                    <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
+                    <p>Git/GitHub, VS Code, dan android studio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="proyek">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">#karya-me saya aku gua</span>
+                <h2>Proyek yang gwej banggakan</h2>
+                <div class="filter" id="filter">
+                    <button class="filter-btn active" data-filter="all">Random 1</button>
+                    <button class="filter-btn" data-filter="web">Website</button>
+                    <button class="filter-btn" data-filter="app">Songs</button>
+                    <button class="filter-btn" data-filter="desain">random 2</button>
+                </div>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+
+                <article class="project-card" data-cat="web">
+                    <div class="project-img" style="background:#ffd9c2">
+                        <span class="project-emoji">🛒</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>WarungKita</h3>
+                        <p>Toko online untuk UMKM lokal — katalog, keranjang, dan checkout yang ringan.</p>
+                        <div class="project-tags"><span>React</span><span>Node.js</span><span>MySQL</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a><a href="#">Kode</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-cat="app">
+                    <div class="project-img" style="background:#d5e8ff">
+                        <span class="project-emoji">📝</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>CatatAja</h3>
+                        <p>Aplikasi catatan harian dengan offline mode, biar tetap produktif tanpa sinyal.</p>
+                        <div class="project-tags"><span>JavaScript</span><span>IndexedDB</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a><a href="#">Kode</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-cat="desain">
+                    <div class="project-img" style="background:#e6d9ff">
+                        <span class="project-emoji">🎨</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Desain aplikasi Bank Mini</h3>
+                        <p>Studi kasus UI mobile banking yang fokus pada kemudahan untuk orang tua.</p>
+                        <div class="project-tags"><span>Figma</span><span>Prototype</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-cat="web">
+                    <div class="project-img" style="background:#ffe4c0">
+                        <span class="project-emoji">🍽️</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>ResepKita</h3>
+                        <p>Platform berbagi resep keluarga, lengkap dengan kategori dan pencarian bahan.</p>
+                        <div class="project-tags"><span>Next.js</span><span>Tailwind</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a><a href="#">Kode</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-cat="app">
+                    <div class="project-img" style="background:#d8f0e0">
+                        <span class="project-emoji">💪</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>FitTrack</h3>
+                        <p>Tracker olahraga sederhana yang nggak perlu daftar akun dulu untuk dipakai.</p>
+                        <div class="project-tags"><span>Vue</span><span>Firebase</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a><a href="#">Kode</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-cat="desain">
+                    <div class="project-img" style="background:#ffe0e6">
+                        <span class="project-emoji">🖌️</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Redesign blog teman</h3>
+                        <p>Membantu teman merapikan tampilan blog musiknya biar lebih nyaman dibaca.</p>
+                        <div class="project-tags"><span>Figma</span><span>CSS</span></div>
+                        <div class="project-links">
+                            <a href="#">Lihat ↗</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-soft" id="kontak">
+        <div class="container">
+            <div class="section-head">
+                <span class="tag">#mari-ngobrol</span>
+                <h2>Punya ide? Ceritakan.</h2>
+                <p class="sub">Pesan saya biasanya dibalas dalam 1–2 hari kerja. Kalau mendesak, chat langsung aja.</p>
+            </div>
+            <div class="kontak-grid">
+                <div class="kontak-info">
+                    <div class="kontak-item">
+                        <span class="ci-emoji">📧</span>
+                        <div><h4>Email</h4><p>halo@rakapradipta.dev</p></div>
+                    </div>
+                    <div class="kontak-item">
+                        <span class="ci-emoji">💬</span>
+                        <div><h4>Telegram</h4><p>@rakapradipta</p></div>
+                    </div>
+                    <div class="kontak-item">
+                        <span class="ci-emoji">📍</span>
+                        <div><h4>Lokasi</h4><p>Jakarta, Indonesia (terbuka remote)</p></div>
+                    </div>
+                </div>
+                <form class="kontak-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" name="nama" placeholder="Nama kamu" required>
+                        <input type="email" name="email" placeholder="Email kamu" required>
+                    </div>
+                    <input type="text" name="subjek" placeholder="Subjek">
+                    <textarea name="pesan" rows="5" placeholder="Ceritakan apa yang kamu butuhkan..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan →</button>
+                    <p class="form-note" id="formNote"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>© 2026 Angelica Putri Elitha Wiguna. Dibuat sambil nyawit.</p>
+            <div class="footer-links">
+                <a href="#">Top</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
